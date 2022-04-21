@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div id="container">
+        <h1>Project Overview</h1>
+				<p>
+                    The Envelope Reader project is made to test tolerances of a variety of different sizes of envelopes. With Cenveo's largest commercial envelope being a number 14 envelope,
+                    4 3/4 in by 11 1/4 in, the Envelope Reader can measure all but 4 of their currently ran envelopes. Once the envelope is placed into the reader employees can click the button
+                    on the website to measure the distance between all the different contours drawn with the edge detection we have put in place. Using computer vision the Reader will detect all
+                    the edges of the envelope, the outer edge and windows, drawing lines there. Once these lines are drawn the Reader will use an Aruco square to get a baseline measurement and 
+                    measure the distance between all the different lines. After getting all the measurements the program will insert them into a data table for future reference and tell the employee
+                    the distances needed for quality assurance.
+
+				</p>
+        <h1>Documentation</h1>
+                <p>
+                    
+                </p>
+    </div>
+{% endblock %}
